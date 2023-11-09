@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: system-ui;
+  /* gap: 10rem; */
+}
+
+.header {
+  background: #000000;
+  color: #ffffff;
+  height: 230px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-family: Bungee Outline, Times, serif;
+  font-size: 60px;
+}
+
+.header__text {
+  color: red;
+  font-family: Creepster;
+  font-size: 40px;
+}
+
+.header__heading {
+  margin: 0;
+}
+
+.box {
+  /* background-color: white;
+  border: 2px dotted red; 
+  border-radius: 50%;
+  box-shadow: green 0 3px 8px; */
+  margin: 20px 10%;
+  border: 5px dotted #252629;
+  padding: 3% 10%;
+  scroll-margin-top: 100px;
+  border-radius: 2rem;
+  position: relative;
+  gap: 10px;
+}
